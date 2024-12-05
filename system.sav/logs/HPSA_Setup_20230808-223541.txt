@@ -1,0 +1,190 @@
+08-08-2023 10.34.16 PM: -s
+08-08-2023 10.34.16 PM: IsPreinstall: Checking if presintall mode
+08-08-2023 10.34.16 PM: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\State key is present, ImageState=IMAGE_STATE_COMPLETE
+08-08-2023 10.34.16 PM: Preinstall: False
+08-08-2023 10.34.16 PM: SilentInstall: True
+08-08-2023 10.34.16 PM: The current installing HPSA version: 9.20.22.0
+08-08-2023 10.34.16 PM: isUpgrading: True, installedHPSAVersion: 8.8.34.31
+08-08-2023 10.34.16 PM: Current PC is HP device.
+08-08-2023 10.34.16 PM: InstallFusionService: start.
+08-08-2023 10.34.16 PM: FusionRestarter::StartProcess:: C:\SWSETUP\sp142943\Fusion\SysInfoCap.exe
+08-08-2023 10.34.16 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.16 PM: FusionRestarter::StartProcess:: C:\SWSETUP\sp142943\Fusion\AppHelperCap.exe
+08-08-2023 10.34.16 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.16 PM: FusionRestarter::StartProcess:: C:\SWSETUP\sp142943\Fusion\NetworkCap.exe
+08-08-2023 10.34.17 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.17 PM: FusionRestarter::StartProcess:: C:\SWSETUP\sp142943\Fusion\DiagsCap.exe
+08-08-2023 10.34.17 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.17 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\SysInfoCap.exe
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.18 PM: Install SysInfoCap, result: 0
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\AppHelperCap.exe
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.18 PM: Install AppHelperCap, result: 0
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\NetworkCap.exe
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.18 PM: Install HPNetworkCap, result: 0
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess:: C:\Program Files\HP\HP Enabling Services\DiagsCap.exe
+08-08-2023 10.34.18 PM: FusionRestarter::StartProcess::ExitCode: 0
+08-08-2023 10.34.18 PM: Install HPDiagsCap, result: 0
+08-08-2023 10.34.18 PM: HPSysInfoCap:Stopped
+08-08-2023 10.34.18 PM: HPAppHelperCap:Stopped
+08-08-2023 10.34.18 PM: HPNetworkCap:Stopped
+08-08-2023 10.34.18 PM: HPDiagsCap:Stopped
+08-08-2023 10.34.29 PM: HPSysInfoCap:Running
+08-08-2023 10.34.29 PM: HPAppHelperCap:Running
+08-08-2023 10.34.29 PM: copying Software\Wow6432Node\Hewlett-Packard\HPActiveSupport to Software\Wow6432Node\Hewlett-Packard\HPActiveSupportSave
+08-08-2023 10.34.29 PM: Upgrade: Start to copy keys in HKEY_USERS 
+08-08-2023 10.34.29 PM: Upgrade: subkey count in HKEY_USERS is 6
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey .DEFAULT
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey S-1-5-19
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey S-1-5-20
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey S-1-5-21-2128409324-2481744689-2123579835-1001
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey Software under this user key
+08-08-2023 10.34.29 PM: Upgrade: Try to create subkey HPSF_Save in Hewlett-Packard hive
+08-08-2023 10.34.29 PM: Upgrade: Try to RecurseCopyKey from HPSF to HPSF_Save
+08-08-2023 10.34.29 PM: Upgrade: RecurseCopyKey finished
+08-08-2023 10.34.29 PM: Delete Hewlett-Packard\HPSF Registry key
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey S-1-5-21-2128409324-2481744689-2123579835-1001_Classes
+08-08-2023 10.34.29 PM: Upgrade: Try to open subkey S-1-5-18
+08-08-2023 10.34.29 PM: Upgrade: start to unregister old HPNC IE plugin.
+08-08-2023 10.34.29 PM: Unregistering: C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\Resources\HPNetworkCheck\HPNetworkCheckPlugin.dll
+08-08-2023 10.34.29 PM: Unregistering: C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\Resources\HPNetworkCheck\HPNetworkCheckPluginx64.dll
+08-08-2023 10.34.29 PM: preparing to uninstall the old HPSA
+08-08-2023 10.34.29 PM: Start to uninstall HPSA: {54ECA61C-83AE-4EE3-A9F7-848155A33386}
+08-08-2023 10.34.29 PM: uninstall previous installed HPSA, uninstall code:{54ECA61C-83AE-4EE3-A9F7-848155A33386}
+08-08-2023 10.35.06 PM: Exit Code:0
+08-08-2023 10.35.06 PM: remProduct called:{07FA4960-B038-49EB-891B-9F95930AA544}
+08-08-2023 10.35.06 PM: Exit Code:{07FA4960-B038-49EB-891B-9F95930AA544}=1605
+08-08-2023 10.35.06 PM: remProduct called:{C9EF1AAF-B542-41C8-A537-1142DA5D4AEC}
+08-08-2023 10.35.06 PM: Exit Code:{C9EF1AAF-B542-41C8-A537-1142DA5D4AEC}=1605
+08-08-2023 10.35.06 PM: remProduct called:{0CC8AE1D-F5AA-4143-8FAD-E017E0E9EE70}
+08-08-2023 10.35.06 PM: Exit Code:{0CC8AE1D-F5AA-4143-8FAD-E017E0E9EE70}=1605
+08-08-2023 10.35.06 PM: remProduct called:{64228DFB-7450-49B7-935C-B97342CB6659}
+08-08-2023 10.35.06 PM: Exit Code:{64228DFB-7450-49B7-935C-B97342CB6659}=1605
+08-08-2023 10.35.06 PM: remProduct called:{9720A595-3D2D-440E-9523-0B6F970745DD}
+08-08-2023 10.35.07 PM: Exit Code:{9720A595-3D2D-440E-9523-0B6F970745DD}=1605
+08-08-2023 10.35.07 PM: the uninstall process should be over now
+08-08-2023 10.35.07 PM: granting admin access for file: C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\temp
+08-08-2023 10.35.07 PM: deleting file: C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\temp
+08-08-2023 10.35.07 PM: retry deleting file after removing readonly flag: C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\temp
+08-08-2023 10.35.07 PM: failed to delete the  file C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\temp, exception message is: Could not find file 'C:\Program Files (x86)\Hewlett-Packard\HP Support Framework\temp'.
+08-08-2023 10.35.07 PM: Meet to condition to install HPSA 9: True
+08-08-2023 10.35.13 PM: InstallDependencies output: 
+C:\SWSETUP\sp142943\HPSA9x\Dependencies\x64
+C:\SWSETUP\sp142943\HPSA9x\Dependencies\x64\Microsoft.VCLibs.x64.14.00.appx
+
+08-08-2023 10.35.13 PM: InstallDependencies error: 
+Add-AppxPackage : Deployment failed with HRESULT: 0x80073D06, The package could not be installed because a higher 
+version of this package is already installed.
+Windows cannot install package Microsoft.VCLibs.140.00_14.0.26706.0_x64__8wekyb3d8bbwe because it has version 
+14.0.26706.0. A higher version 14.0.32530.0 of this package is already installed.
+NOTE: For additional information, look for [ActivityId] 0445caa6-c5b6-0001-88bf-4f04b6c5d901 in the Event Log or use 
+the command line Get-AppPackageLog -ActivityID 0445caa6-c5b6-0001-88bf-4f04b6c5d901
+At C:\Users\chandan singh mehra\AppData\Local\Temp\tmp4E9A.tmp.ps1:8 char:1
++ Add-AppxPackage -Path "$dir\Microsoft.VCLibs.$arch.14.00.appx"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\SWSETUP\sp14....x64.14.00.appx:String) [Add-AppxPackage], Exception
+    + FullyQualifiedErrorId : DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.AddAppxPackageCommand
+ 
+
+08-08-2023 10.35.13 PM: Program::InstallHPSA9Dism: arguments: /Online /Add-ProvisionedAppxPackage /PackagePath:"C:\SWSETUP\sp142943\HPSA9x\748a8fa034244325a9f6dc8847ad1a50.appxbundle" /LogPath:C:\system.sav\logs\HPSAUWP_dism.log /LicensePath:"C:\SWSETUP\sp142943\HPSA9x\748a8fa034244325a9f6dc8847ad1a50_License1.xml"
+08-08-2023 10.35.36 PM: Program::InstallHPSA9Dism: ExitCode: 0
+08-08-2023 10.35.36 PM: Install HPSA9 package finished: install result: True
+08-08-2023 10.35.36 PM: Creating registry keys
+08-08-2023 10.35.36 PM: current system is 64-bit system, using the 64-bit reg file
+08-08-2023 10.35.36 PM: Creating extraction folder : C:\SWSETUP\sp142943\HPSA\
+08-08-2023 10.35.36 PM: Successfully created registry keys
+08-08-2023 10.35.36 PM: Succesfully deleted files in: C:\SWSETUP\sp142943\HPSA\
+08-08-2023 10.35.36 PM: Set permissions for users group on HPSFMsgrStatus.xml to full control
+08-08-2023 10.35.36 PM: Once again to make sure we have full permissions for the HP Support Framework folder under ProgramData
+08-08-2023 10.35.36 PM: granting admin access for file: C:\ProgramData\HP\HP Support Framework\Resources\HPSFMessenger\HPSFMsgrStatus.xml
+08-08-2023 10.35.36 PM: granting admin access for file: C:\ProgramData\HP\HP Support Framework\Resources\HPSFMessenger
+08-08-2023 10.35.36 PM: granting admin access for file: C:\ProgramData\HP\HP Support Framework\Resources
+08-08-2023 10.35.36 PM: IsPreinstall: Checking if presintall mode
+08-08-2023 10.35.36 PM: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\State key is present, ImageState=IMAGE_STATE_COMPLETE
+08-08-2023 10.35.36 PM: current language: en-us
+08-08-2023 10.35.36 PM: Setting Language Key: en-US
+08-08-2023 10.35.36 PM: Installing System Tray
+08-08-2023 10.35.36 PM: System Tray was not upgraded. Same version
+08-08-2023 10.35.36 PM: Remove the word 'support' so that HPSA shows up in start menu.
+08-08-2023 10.35.36 PM: trying to set the CIPOPtin value if CIP.ini or Ceement.ini file is available
+08-08-2023 10.35.36 PM: CIP.ini file is not available at C:\ProgramData\Hewlett-Packard\HP Ceement\CIP.ini, checking if the ceement.ini is available
+08-08-2023 10.35.36 PM: couldn't find the ceement.ini file path
+08-08-2023 10.35.36 PM: Installing Help and Support
+08-08-2023 10.35.36 PM: In doHelpSupportInstallPOST
+08-08-2023 10.35.36 PM: signature validation failed for C:\Windows\Help\OEM\scripts\checkmui.dll
+08-08-2023 10.35.36 PM: Current system is Win8 or later
+08-08-2023 10.35.36 PM: InstallTasks::ControlTaskbar:: command: ShowTaskbarIcon
+08-08-2023 10.35.36 PM: path is: C:\Program Files (x86)\HP\HP Support Framework\TaskbarController.exe
+08-08-2023 10.35.36 PM: Setting NotifyPopup for HPSA popup mode
+08-08-2023 10.35.36 PM: Refreshing system icon cache
+08-08-2023 10.35.36 PM: Preparing to create HPSA shortcuts
+08-08-2023 10.35.37 PM: Creating desktop shortcut for HPSA.
+08-08-2023 10.35.37 PM: Create desktop lnk file result: True
+08-08-2023 10.35.37 PM: Refresh system icon cache again to make sure we show the correct application icon
+08-08-2023 10.35.37 PM: copying Software\Wow6432Node\Hewlett-Packard\HPActiveSupportSave to Software\Wow6432Node\HP\HPActiveSupport
+08-08-2023 10.35.37 PM: Program::DeleteUselessRegistry: delete Version.
+08-08-2023 10.35.37 PM: Start to copy keys in HKEY_USERS 
+08-08-2023 10.35.37 PM: subkey count in HKEY_USERS is 6
+08-08-2023 10.35.37 PM: Try to open subkey .DEFAULT
+08-08-2023 10.35.37 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+08-08-2023 10.35.37 PM: Try to open subkey S-1-5-19
+08-08-2023 10.35.37 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+08-08-2023 10.35.37 PM: Try to open subkey S-1-5-20
+08-08-2023 10.35.37 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+08-08-2023 10.35.37 PM: Try to open subkey S-1-5-21-2128409324-2481744689-2123579835-1001
+08-08-2023 10.35.37 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+08-08-2023 10.35.37 PM: Try to create subkey HP\HPSF in Software hive if it not exists
+08-08-2023 10.35.37 PM: Try to RecurseCopyKey from Hewlett-Packard\HPSF_Save to HP\HPSF
+08-08-2023 10.35.37 PM: RecurseCopyKey finished
+08-08-2023 10.35.37 PM: Delete Hewlett-Packard\HPSF_Save Registry key
+08-08-2023 10.35.37 PM: Try to open subkey S-1-5-21-2128409324-2481744689-2123579835-1001_Classes
+08-08-2023 10.35.37 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+08-08-2023 10.35.37 PM: Try to open subkey S-1-5-18
+08-08-2023 10.35.37 PM: Try to open subkey Software\Hewlett-Packard\HPSF_Save under this user key
+08-08-2023 10.35.37 PM: carrying over the permissions from the backup HP Support Framework folder
+08-08-2023 10.35.37 PM: Copying C:\ProgramData\Hewlett-Packard\HP Support Framework\Resources to C:\ProgramData\HP\HP Support Framework\Resources
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Resources\Updater8\HPSA_Upgrade.xml
+08-08-2023 10.35.37 PM: Copying C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices to C:\ProgramData\HP\HP Support Framework\Devices
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\3YG68UC.png
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\ActionLog.xml
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\BatteryHistory.json
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\CO_en-US_IN.dat
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\DeviceTroubleshooters.xml
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\DeviceUpdates.xml
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\MessagesMeta.json
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Devices\UpdatesMeta.json
+08-08-2023 10.35.37 PM: LocalState\Devices not exists, create it.
+08-08-2023 10.35.37 PM: Move Devices folder finished.
+08-08-2023 10.35.37 PM: Copying C:\ProgramData\Hewlett-Packard\HP Support Framework\Data to C:\ProgramData\HP\HP Support Framework\Data
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Data\Offline\20230802-155753_2817600736.rpt
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Data\Offline\CeeForApps.log
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Data\Offline\HPDiagnostics.log
+08-08-2023 10.35.37 PM: Copying C:\ProgramData\Hewlett-Packard\HP Support Framework\Actions to C:\ProgramData\HP\HP Support Framework\Actions
+08-08-2023 10.35.37 PM: Copying file: C:\ProgramData\Hewlett-Packard\HP Support Framework\Actions\actionLog.xml
+08-08-2023 10.35.37 PM: RestoreProgramdataFiles:: Delete dir: C:\ProgramData\Hewlett-Packard\HP Support Framework\Logs
+08-08-2023 10.35.37 PM: Target folder is C:\users\All Users\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\All Users\AppData\Local\HP\HP Support Framework
+08-08-2023 10.35.37 PM: Target folder is C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework, dest folder is C:\users\chandan singh mehra\AppData\Local\HP\HP Support Framework
+08-08-2023 10.35.37 PM: Start to copy directory from C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework to C:\users\chandan singh mehra\AppData\Local\HP\HP Support Framework
+08-08-2023 10.35.37 PM: Copying file: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Obligations\5CG8172BZR.xml
+08-08-2023 10.35.38 PM: Copying file: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Warranty\warLog.xml
+08-08-2023 10.35.38 PM: Copy folder finished.
+08-08-2023 10.35.38 PM: deleting file: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Obligations\5CG8172BZR.xml
+08-08-2023 10.35.38 PM: deleting file: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Obligations
+08-08-2023 10.35.38 PM: retry deleting file after removing readonly flag: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Obligations
+08-08-2023 10.35.38 PM: failed to delete the  file C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Obligations, exception message is: Could not find file 'C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Obligations'.
+08-08-2023 10.35.38 PM: deleting file: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Warranty\warLog.xml
+08-08-2023 10.35.38 PM: deleting file: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Warranty
+08-08-2023 10.35.38 PM: retry deleting file after removing readonly flag: C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Warranty
+08-08-2023 10.35.38 PM: failed to delete the  file C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Warranty, exception message is: Could not find file 'C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework\Warranty'.
+08-08-2023 10.35.38 PM: Delete source folder C:\users\chandan singh mehra\AppData\Local\Hewlett-Packard\HP Support Framework
+08-08-2023 10.35.38 PM: LocalCache not exists now. wait for 3 seconds.
+08-08-2023 10.35.41 PM: check profile folder
+08-08-2023 10.35.41 PM: check profile.json
+08-08-2023 10.35.41 PM: copy profile.json into localcache.
+08-08-2023 10.35.41 PM: devices Folder not exists.
+08-08-2023 10.35.41 PM: Target folder is C:\users\Default\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\Default\AppData\Local\HP\HP Support Framework
+08-08-2023 10.35.41 PM: Target folder is C:\users\Default User\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\Default User\AppData\Local\HP\HP Support Framework
+08-08-2023 10.35.41 PM: Target folder is C:\users\Public\AppData\Local\HP\HP Support Framework Backup, dest folder is C:\users\Public\AppData\Local\HP\HP Support Framework
+08-08-2023 10.35.41 PM: Program::Main: ExitCode: 0

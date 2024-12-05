@@ -1,0 +1,10 @@
+Output message
+File signature is OK.
+Signature Date = 22/08/2022 at 13:48:44
+File Signer = C=US, S=California, L=Palo Alto, O=HP Inc., OU=HP Cybersecurity, CN=HP Inc.
+argc: 2
+arg: -s
+args: C:\SWSETUP\sp142943\\InstallHPSA.exe -s
+setupPath and args: C:\SWSETUP\sp142943\\InstallHPSA.exe -s
+find -s or /s
+exit code: 0

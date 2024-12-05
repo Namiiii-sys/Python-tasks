@@ -1,0 +1,106 @@
+[21B8:2188][2023-08-02T16:03:33]i001: Burn v3.11.1.2318, Windows v10.0 (Build 19045: Service Pack 0), path: C:\WINDOWS\Temp\{9B94577B-29DD-4258-B093-B77C01D6B9D1}\.cr\SetupChipset.exe
+[21B8:2188][2023-08-02T16:03:33]i000: Initializing string variable 'CHIPSET_PRODUCT_VERSION' to value '10.1.18243.8188'
+[21B8:2188][2023-08-02T16:03:33]i000: Initializing string variable 'INSTALLER_BUILD_VERSION' to value '3.1.7.121'
+[21B8:2188][2023-08-02T16:03:33]i000: Initializing string variable 'IIF_ExtractionMapping_SetupChipsetx86.msi' to value ';NullDrivers.cab;NOT VersionNT64'
+[21B8:2188][2023-08-02T16:03:33]i000: Initializing string variable 'IIF_ExtractionMapping_SetupChipsetx64.msi' to value ';NullDrivers.cab;VersionNT64'
+[21B8:2188][2023-08-02T16:03:33]i009: Command Line: '-burn.clean.room=C:\swsetup\sp101171\src\SetupChipset.exe -burn.filehandle.attached=552 -burn.filehandle.self=568 -s -norestart -log C:\System.sav\logs\IntelChipset.log'
+[21B8:2188][2023-08-02T16:03:33]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\swsetup\sp101171\src\SetupChipset.exe'
+[21B8:2188][2023-08-02T16:03:33]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\swsetup\sp101171\src\'
+[21B8:2188][2023-08-02T16:03:34]i000: Setting string variable 'WixBundleLog' to value 'C:\System.sav\logs\IntelChipset.log'
+[21B8:2188][2023-08-02T16:03:34]i052: Condition 'VersionNT >= v6.1 OR (VersionNT = v6.0 AND NTProductType = 3)' evaluates to true.
+[21B8:2188][2023-08-02T16:03:34]i000: Setting string variable 'WixBundleName' to value 'Intel(R) Chipset Device Software'
+[21B8:2188][2023-08-02T16:03:34]i000: Setting string variable 'WixBundleManufacturer' to value 'Intel(R) Corporation'
+[21B8:2188][2023-08-02T16:03:34]i000: Loading managed bootstrapper application.
+[21B8:2188][2023-08-02T16:03:35]i000: Creating BA thread to run asynchronously.
+[21B8:21E4][2023-08-02T16:03:35]i000: ** MBA ** Command line:
+[21B8:21E4][2023-08-02T16:03:35]i000: Setting string variable 'WixBundleNameBanner' to value 'Intel(R) Chipset Device Software'
+[21B8:21E4][2023-08-02T16:03:37]i000: ** MBA ** Calling Engine.Detect()
+[21B8:2188][2023-08-02T16:03:37]i100: Detect begin, 3 packages
+[21B8:2188][2023-08-02T16:03:37]i000: Setting string variable 'DotNet35' to value '1'
+[21B8:2188][2023-08-02T16:03:37]i000: Setting string variable 'DotNet40Client' to value '1'
+[21B8:2188][2023-08-02T16:03:37]i000: Setting string variable 'DotNet40Full' to value '1'
+[21B8:2188][2023-08-02T16:03:37]i000: Setting string variable 'DotNet45' to value '533325'
+[21B8:2188][2023-08-02T16:03:37]i052: Condition 'DotNet35 OR DotNet40Client OR DotNet40Full OR (DotNet45 >= 378389)' evaluates to true.
+[21B8:2188][2023-08-02T16:03:37]i000: ** MBA ** Detected package DotNet45
+[21B8:2188][2023-08-02T16:03:37]i000: ** MBA ** Detected package SetupChipsetx86.msi
+[21B8:2188][2023-08-02T16:03:37]i000: ** MBA ** Detected package SetupChipsetx64.msi
+[21B8:2188][2023-08-02T16:03:37]i101: Detected package: DotNet45, state: Present, cached: None
+[21B8:2188][2023-08-02T16:03:37]i101: Detected package: SetupChipsetx86.msi, state: Absent, cached: None
+[21B8:2188][2023-08-02T16:03:37]i104: Detected package: SetupChipsetx86.msi, feature: PackageVersionFeature, state: Absent
+[21B8:2188][2023-08-02T16:03:37]i104: Detected package: SetupChipsetx86.msi, feature: LicenseAgreementFeature, state: Absent
+[21B8:2188][2023-08-02T16:03:37]i101: Detected package: SetupChipsetx64.msi, state: Absent, cached: None
+[21B8:2188][2023-08-02T16:03:37]i104: Detected package: SetupChipsetx64.msi, feature: PackageVersionFeature, state: Absent
+[21B8:2188][2023-08-02T16:03:37]i104: Detected package: SetupChipsetx64.msi, feature: LicenseAgreementFeature, state: Absent
+[21B8:2188][2023-08-02T16:03:37]i199: Detect complete, result: 0x0
+[21B8:2188][2023-08-02T16:03:37]i200: Plan begin, 3 packages, action: Install
+[21B8:2188][2023-08-02T16:03:37]w321: Skipping dependency registration on package with no dependency providers: DotNet45
+[21B8:2188][2023-08-02T16:03:37]i052: Condition 'NOT VersionNT64' evaluates to false.
+[21B8:2188][2023-08-02T16:03:37]i204: Plan 2 msi features for package: SetupChipsetx86.msi
+[21B8:2188][2023-08-02T16:03:37]i203: Planned feature: PackageVersionFeature, state: Absent, default requested: Unknown, ba requested: Unknown, execute action: None, rollback action: None
+[21B8:2188][2023-08-02T16:03:37]i203: Planned feature: LicenseAgreementFeature, state: Absent, default requested: Unknown, ba requested: Unknown, execute action: None, rollback action: None
+[21B8:2188][2023-08-02T16:03:37]i052: Condition 'VersionNT64' evaluates to true.
+[21B8:2188][2023-08-02T16:03:37]i204: Plan 2 msi features for package: SetupChipsetx64.msi
+[21B8:2188][2023-08-02T16:03:37]i203: Planned feature: PackageVersionFeature, state: Absent, default requested: Unknown, ba requested: Unknown, execute action: None, rollback action: None
+[21B8:2188][2023-08-02T16:03:37]i203: Planned feature: LicenseAgreementFeature, state: Absent, default requested: Unknown, ba requested: Unknown, execute action: None, rollback action: None
+[21B8:2188][2023-08-02T16:03:37]i000: Setting string variable 'WixBundleRollbackLog_SetupChipsetx64.msi' to value 'C:\System.sav\logs\IntelChipset_000_SetupChipsetx64.msi_rollback.log'
+[21B8:2188][2023-08-02T16:03:37]i000: Setting string variable 'ChipsetInfx64_MsiLogPathVar' to value 'C:\System.sav\logs\IntelChipset_000_SetupChipsetx64.msi.log'
+[21B8:2188][2023-08-02T16:03:37]i201: Planned package: DotNet45, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[21B8:2188][2023-08-02T16:03:37]i201: Planned package: SetupChipsetx86.msi, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[21B8:2188][2023-08-02T16:03:37]i201: Planned package: SetupChipsetx64.msi, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[21B8:2188][2023-08-02T16:03:37]i299: Plan complete, result: 0x0
+[21B8:21E4][2023-08-02T16:03:37]i000: Setting string variable 'IIF_MSI_SWITCHES' to value ''
+[21B8:21E4][2023-08-02T16:03:37]i000: ** MBA ** Getting window handle.
+[21B8:21E4][2023-08-02T16:03:37]i000: ** MBA ** Calling Engine.Apply(). Window handle: 0
+[21B8:2188][2023-08-02T16:03:37]i300: Apply begin
+[21B8:2188][2023-08-02T16:03:37]i000: ** MBA ** Warning: ChipsetInfx86_MsiLogPathVar failed to fetch variable value: Element not found. (Exception from HRESULT: 0x80070490)
+[21B8:2188][2023-08-02T16:03:37]i010: Launching elevated engine process.
+[21B8:2188][2023-08-02T16:03:37]i011: Launched elevated engine process.
+[21B8:2188][2023-08-02T16:03:37]i012: Connected to elevated engine.
+[21F0:2078][2023-08-02T16:03:37]i358: Pausing automatic updates.
+[21F0:2078][2023-08-02T16:03:37]i359: Paused automatic updates.
+[21F0:2078][2023-08-02T16:03:37]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{f3b1c211-1159-4262-bb97-84150cda9096}, options: 0x7, disable resume: No
+[21F0:2078][2023-08-02T16:03:37]i000: Caching bundle from: 'C:\WINDOWS\Temp\{BD98648E-F4EC-4C9C-9773-150DCD180752}\.be\SetupChipset.exe' to: 'C:\ProgramData\Package Cache\{f3b1c211-1159-4262-bb97-84150cda9096}\SetupChipset.exe'
+[21F0:2078][2023-08-02T16:03:37]i320: Registering bundle dependency provider: {f3b1c211-1159-4262-bb97-84150cda9096}, version: 10.1.18243.8188
+[21F0:2078][2023-08-02T16:03:37]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{f3b1c211-1159-4262-bb97-84150cda9096}, resume: Active, restart initiated: No, disable resume: No
+[21F0:2280][2023-08-02T16:03:37]i305: Verified acquired payload: SetupChipsetx64.msi at path: C:\ProgramData\Package Cache\.unverified\SetupChipsetx64.msi, moving to: C:\ProgramData\Package Cache\{4A121459-D3F8-4908-A474-96D45641E357}v10.1.18243.8188\SetupChipsetx64.msi.
+[21F0:2280][2023-08-02T16:03:37]i305: Verified acquired payload: cab4FADBDD6DC6637E75E196F741A3F14D1 at path: C:\ProgramData\Package Cache\.unverified\cab4FADBDD6DC6637E75E196F741A3F14D1, moving to: C:\ProgramData\Package Cache\{4A121459-D3F8-4908-A474-96D45641E357}v10.1.18243.8188\media1.cab.
+[21F0:2280][2023-08-02T16:03:37]i305: Verified acquired payload: cabA81C261D24835BDAD60FEAF8053B8D85 at path: C:\ProgramData\Package Cache\.unverified\cabA81C261D24835BDAD60FEAF8053B8D85, moving to: C:\ProgramData\Package Cache\{4A121459-D3F8-4908-A474-96D45641E357}v10.1.18243.8188\NullDrivers.cab.
+[21F0:2078][2023-08-02T16:03:37]i323: Registering package dependency provider: {4A121459-D3F8-4908-A474-96D45641E357}, version: 10.1.18243.8188, package: SetupChipsetx64.msi
+[21F0:2078][2023-08-02T16:03:37]i301: Applying execute package: SetupChipsetx64.msi, action: Install, path: C:\ProgramData\Package Cache\{4A121459-D3F8-4908-A474-96D45641E357}v10.1.18243.8188\SetupChipsetx64.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" IIF_MSI_SWITCHES="" ARPNOMODIFY="1"'
+[21B8:2188][2023-08-02T16:03:50]i319: Applied execute package: SetupChipsetx64.msi, result: 0x0, restart: Required
+[21F0:2078][2023-08-02T16:03:50]i325: Registering dependency: {f3b1c211-1159-4262-bb97-84150cda9096} on package provider: {4A121459-D3F8-4908-A474-96D45641E357}, package: SetupChipsetx64.msi
+[21F0:2078][2023-08-02T16:03:50]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{f3b1c211-1159-4262-bb97-84150cda9096}, resume: ARP, restart: Required, disable resume: No
+[21F0:2078][2023-08-02T16:03:50]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{f3b1c211-1159-4262-bb97-84150cda9096}, resume: ARP, restart initiated: No, disable resume: No
+[21B8:2188][2023-08-02T16:03:50]i000: ** MBA ** Apply complete. Status: '0x0' Restart: 'RestartRequired' Result: 'None'
+[21B8:2188][2023-08-02T16:03:50]i399: Apply complete, result: 0x0, restart: Required, ba requested restart:  No
+[21B8:21E4][2023-08-02T16:03:50]i000: ** MBA ** ResultCode=3010
+[21B8:2188][2023-08-02T16:03:50]i500: Shutting down, exit code: 0xbc2
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: CHIPSET_PRODUCT_VERSION = 10.1.18243.8188
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: ChipsetInfx64_MsiLogPathVar = C:\System.sav\logs\IntelChipset_000_SetupChipsetx64.msi.log
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: DotNet35 = 1
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: DotNet40Client = 1
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: DotNet40Full = 1
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: DotNet45 = 533325
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: IIF_ExtractionMapping_SetupChipsetx64.msi = ;NullDrivers.cab;VersionNT64
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: IIF_ExtractionMapping_SetupChipsetx86.msi = ;NullDrivers.cab;NOT VersionNT64
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: IIF_MSI_SWITCHES = 
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: INSTALLER_BUILD_VERSION = 3.1.7.121
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: NTProductType = 1
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: VersionNT = 10.0.0.0
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: VersionNT64 = 10.0.0.0
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleAction = 5
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleElevated = 1
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleLog = C:\System.sav\logs\IntelChipset.log
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleManufacturer = Intel(R) Corporation
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleName = Intel(R) Chipset Device Software
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleNameBanner = Intel(R) Chipset Device Software
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleOriginalSource = C:\swsetup\sp101171\src\SetupChipset.exe
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleOriginalSourceFolder = C:\swsetup\sp101171\src\
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleProviderKey = {f3b1c211-1159-4262-bb97-84150cda9096}
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleRollbackLog_SetupChipsetx64.msi = C:\System.sav\logs\IntelChipset_000_SetupChipsetx64.msi_rollback.log
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleSourceProcessFolder = C:\swsetup\sp101171\src\
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleSourceProcessPath = C:\swsetup\sp101171\src\SetupChipset.exe
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleTag = 
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleUILevel = 2
+[21B8:2188][2023-08-02T16:03:50]i410: Variable: WixBundleVersion = 10.1.18243.8188
+[21B8:2188][2023-08-02T16:03:50]i007: Exit code: 0xbc2, restarting: No
